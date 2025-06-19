@@ -6,6 +6,7 @@
 
 p, h1, h2, h3, h4, h5, h6, a {
     font-family: Roboto, sans-serif;
+    font-size: 14px;
 }
 
 /* HEADER STYLING */
@@ -34,5 +35,55 @@ p, h1, h2, h3, h4, h5, h6, a {
 .menu-items a {
     text-decoration: none; 
     color: #e5e7eb;
-    font-size: 14px;
+}
+
+/* HERO STYLING */
+.section {
+    /* this padding is duplicated */
+    padding: 15px 10vw; 
+}
+
+.hero {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: row;
+    gap: 30px; 
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.hero-info {
+    display: flex;
+    flex-direction: column; 
+    justify-content: start;
+    flex: 1;
+    gap: 10px
+}
+
+.hero-image {
+    flex: 1; 
+    background-color: grey;
+    color: white;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.hero-main {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero-secondary {
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 5px; 
+    border: none;
+    color: white;
+    width: 100px;
+    padding: 5px
 }
