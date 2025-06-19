@@ -3,3 +3,36 @@
   box-sizing: border-box;
   margin: 0;
 }
+
+p, h1, h2, h3, h4, h5, h6, a {
+    font-family: Roboto, sans-serif;
+}
+
+/* HEADER STYLING */
+.header {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10vw;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.menu-items {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 15px;
+}
+
+.menu-items a {
+    text-decoration: none; 
+    color: #e5e7eb;
+    font-size: 14px;
+}
